@@ -1,0 +1,86 @@
+body{
+    margin: o;
+    padding: o;
+}
+.container{
+    width:1200px ;
+    margin: o auto;
+  
+
+}
+.header{
+    background: #ffffff;
+background: linear-gradient(13deg,rgba(255, 255, 255, 1) 1%, rgba(255, 204, 94, 1) 55%, rgba(207, 137, 52, 1) 100%);
+}
+.menü{
+    list-style: none;
+    padding: 15px 0 ;
+    display: flex;
+    justify-content:center;
+    gap: 60px;
+   
+}
+.link{
+    background-color: yellow;
+    margin: 20px;
+    padding:10px;
+    border-radius:5px  ;
+    display: block;
+    text-decoration: none;
+    color: rgb(232, 80, 219);
+    font-size: 20px;
+
+}
+.gallery{
+ background: #deb6b6;
+background: radial-gradient(circle,rgba(222, 182, 182, 1) 1%, 
+rgba(207, 174, 109, 1) 47%, rgba(199, 188, 88, 1) 100%);
+display: flex; 
+justify-content: center;
+}
+.gallery-list{
+    padding: 40px;
+    display: flex;
+     flex-wrap: wrap; 
+     justify-content: space-between;
+}
+.gallery-item{
+    width:350px ;
+    height:250px ;
+    margin-bottom: 40px;
+    border-radius: 15px;
+
+}
+a:hover{
+    background-color: rgb(137, 137, 248);
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    
+}
+img:hover{
+    width: 400px;
+    height: 300px;
+    border-radius: 55px;
+    transition: 100s;
+}
+button{
+    background-color: rgb(228, 66, 66);
+    color: black;
+    border: 2px solid green;
+    border-radius: 15px;
+    width: 100px;
+    height: 60px;
+   
+}
+button:hover{
+     box-shadow: 10px -7px 5px black;
+   
+}
+button:focus{
+    box-shadow: -10px 7px 5px yellowgreen;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
